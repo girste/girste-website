@@ -1,0 +1,923 @@
+{
+  "projects": [
+    {
+      "title": "Amaro Màrlus",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768246/girste/marlus/cope.png",
+      "description": "",
+      "link": "https://marlus.it",
+      "tags": [
+        "creative direction",
+        "branding",
+        "web"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1757421940/girste/ywieze7ts0p54zhwflcw.png"
+        },
+        {
+          "type": "video",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/video/upload/v1756328656/yheupfbuf1ife8vo1wjh.mp4"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768249/girste/marlus/group-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768252/girste/marlus/group-2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768254/girste/marlus/screenshot-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768255/girste/marlus/screenshot-2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768258/girste/marlus/screenshot-3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756328654/ha0zy8ifoxwloqs19zp2.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756328200/hq2c96lu8pplrmhhkldk.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756328209/d8flwhhukj382dano91g.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756328544/gubu0cu5mrmam3ejushz.webp"
+        }
+      ]
+    },
+    {
+      "title": "Hiki3D",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768292/girste/hiki/cope.png",
+      "description": "",
+      "link": "https://hiki3d.com",
+      "tags": [
+        "creative direction",
+        "website",
+        "social"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1762876752/girste/hiki/screenshot-new-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769874/girste/hiki/bgvis.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1762876765/girste/hiki/screenshot-new-3.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1762876771/girste/hiki/screenshot-new-4.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1762876777/girste/hiki/screenshot-new-5.png"
+        }
+      ]
+    },
+    {
+      "title": "Violet & Crystal",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1757424089/girste/fjmuxkakjxm6zzxxqmsn.webp",
+      "description": "",
+      "link": "https://violetandcrystal.com",
+      "tags": [
+        "branding",
+        "website",
+        "art direction"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1763141260/girste/violet.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769883/girste/violet/screenshot-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769885/girste/violet/screenshot-2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769886/girste/violet/screenshot-3.png"
+        }
+      ]
+    },
+    {
+      "title": "Pandaroni",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768270/girste/pandaroni/cope.png",
+      "description": "",
+      "tags": [
+        "creative direction",
+        "website",
+        "shop"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768272/girste/pandaroni/group.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1763141265/girste/panda.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768274/girste/pandaroni/photo.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768276/girste/pandaroni/screenshot-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768278/girste/pandaroni/screenshot-2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768279/girste/pandaroni/screenshot-3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768281/girste/pandaroni/screenshot-4.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768283/girste/pandaroni/screenshot-5.png"
+        }
+      ]
+    },
+    {
+      "title": "Sidewalk Art Gallery",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756327286/aitf5rmijeb1sqc7m5cj.webp",
+      "description": "",
+      "tags": [
+        "branding",
+        "art direction",
+        "collab"
+      ],
+      "gallery": [
+        {
+          "type": "video",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/video/upload/v1756328479/oiv0caz1cflmtx9mgypm.mp4"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756327385/qtxegjskd7xbxgmt5kce.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756327270/oym4jwsnclycmuh5snbq.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1757350737/girste/sidewalk_cover.png"
+        }
+      ]
+    },
+    {
+      "title": "Nana Burger",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857879/girste/nana/cope.png",
+      "description": "",
+      "link": "https://www.instagram.com/nanaburger_laspezia/",
+      "tags": [
+        "art direction",
+        "social",
+        "collab"
+      ],
+      "gallery": [
+        {
+          "type": "video",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/video/upload/v1759857883/girste/nana/video.mp4"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857886/girste/nana/screenshot1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857890/girste/nana/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857893/girste/nana/screenshot3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857896/girste/nana/screenshot4.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857907/girste/nana/screenshot5.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857910/girste/nana/screenshot6.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857914/girste/nana/screenshot7.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857917/girste/nana/screenshot8.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857920/girste/nana/screenshot9.png"
+        }
+      ]
+    },
+    {
+      "title": "Vulcanus",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850133/girste/vulcanus/cope.png",
+      "description": "",
+      "tags": [
+        "art direction",
+        "website",
+        "shop"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850135/girste/vulcanus/property-variant2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850137/girste/vulcanus/how.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850142/girste/vulcanus/landing.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850145/girste/vulcanus/prod.png"
+        }
+      ]
+    },
+    {
+      "title": "Banality",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857938/girste/banality/cope.png",
+      "description": "",
+      "tags": [
+        "founder",
+        "fashion",
+        "style"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857943/girste/banality/screenshot1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857947/girste/banality/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857951/girste/banality/screenshot3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857954/girste/banality/screenshot4.png"
+        }
+      ]
+    },
+    {
+      "title": "KRRRD",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768217/girste/krrrd/cope.png",
+      "description": "",
+      "link": "https://krrrd.girste.com",
+      "tags": [
+        "founder",
+        "ai",
+        "new tech"
+      ],
+      "gallery": [
+        {
+          "type": "video",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/video/upload/v1759768235/girste/krrrd/screen-recording-demo.mov"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768227/girste/krrrd/screenshot-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768229/girste/krrrd/screenshot-2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768231/girste/krrrd/screenshot-3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759768232/girste/krrrd/screenshot-4.png"
+        }
+      ]
+    },
+    {
+      "title": "Gin 104",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769897/girste/104/cope.png",
+      "description": "",
+      "link": "https://104nolimits.com",
+      "tags": [
+        "creative direction",
+        "website",
+        "shop"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769898/girste/104/tris-mignon.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769900/girste/104/calice-cocktail.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769902/girste/104/group.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769904/girste/104/screenshot-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769906/girste/104/screenshot-2.png"
+        }
+      ]
+    },
+    {
+      "title": "Codebeans",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769914/girste/codebeans/cope.png",
+      "description": "",
+      "link": "https://codebeans.it",
+      "tags": [
+        "branding",
+        "website",
+        "collab"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769915/girste/codebeans/group.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769917/girste/codebeans/screenshot-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769918/girste/codebeans/screenshot-2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769920/girste/codebeans/screenshot-3.png"
+        }
+      ]
+    },
+    {
+      "title": "Legami",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769926/girste/legami/cope.png",
+      "description": "",
+      "tags": [
+        "graphic design",
+        "illustration",
+        "style"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759769929/girste/legami/dem1-dt.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756328444/awg1hh6fnnzld5sufbmo.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756328441/zstakuqrb0pjp2fxssmn.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756328450/p61vboheuckcdnxct3ag.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1757427435/girste/k5ofpxl7avak4hkxsmsw.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1757427437/girste/f1dbg6fwicvmircruwtq.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1757427475/girste/wvvdhz2csfm0jdeb09ng.webp"
+        }
+      ]
+    },
+    {
+      "title": "ABB Hospitality",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759849980/girste/abb/cope.png",
+      "description": "",
+      "tags": [
+        "newsletter",
+        "graphic design",
+        "copywriting"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759849984/girste/abb/gen2-grms-big.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759849987/girste/abb/group-202.png"
+        }
+      ]
+    },
+    {
+      "title": "FPT",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850003/girste/fpt/cope.png",
+      "description": "",
+      "tags": [
+        "UI/UX",
+        "website",
+        "graphic design"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850007/girste/fpt/device-set-mockup.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850013/girste/fpt/group-1899.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850713/girste/fpt/group-1900.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850054/girste/fpt/hp-merchandising.png"
+        }
+      ]
+    },
+    {
+      "title": "ITAS",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850069/girste/itas/cope.png",
+      "description": "",
+      "tags": [
+        "art direction",
+        "presentation",
+        "copywriting"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850070/girste/itas/frame-30.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850072/girste/itas/frame-31.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850073/girste/itas/frame-32.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850075/girste/itas/frame-33.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850077/girste/itas/frame-34.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850078/girste/itas/frame-35.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850096/girste/itas/frame-36.png"
+        }
+      ]
+    },
+    {
+      "title": "Stellantis",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850109/girste/stellantis/cope.png",
+      "description": "",
+      "tags": [
+        "UI",
+        "graphic design",
+        "microcopy"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850113/girste/stellantis/group-1894.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850116/girste/stellantis/group-1896.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850117/girste/stellantis/cccc.png"
+        }
+      ]
+    },
+    {
+      "title": "Ferrero",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855625/girste/ferrero/cope.png",
+      "description": "",
+      "tags": [
+        "art direction",
+        "presentation",
+        "newsletter"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759856199/girste/ferrero/screenshot1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759856203/girste/ferrero/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759856206/girste/ferrero/screenshot3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759856209/girste/ferrero/screenshot4.png"
+        }
+      ]
+    },
+    {
+      "title": "Hashy",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855655/girste/hashy/cope.png",
+      "description": "",
+      "link": "https://www.hashyallinone.com/",
+      "tags": [
+        "art direction",
+        "website",
+        "collab"
+      ],
+      "gallery": [
+        {
+          "type": "video",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/video/upload/v1759855668/girste/hashy/video.mov"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1762877373/girste/hashy/screenshot-new-1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1762877379/girste/hashy/screenshot-new-2.png"
+        }
+      ]
+    },
+    {
+      "title": "MICAM",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855894/girste/micam/cope.jpg",
+      "description": "",
+      "link": "https://mag.micam.it/it/",
+      "tags": [
+        "newsletter",
+        "website",
+        "graphic design"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855794/girste/micam/screenshot1.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855796/girste/micam/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855800/girste/micam/screenshot3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855803/girste/micam/screenshot4.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855807/girste/micam/screenshot5.png"
+        }
+      ]
+    },
+    {
+      "title": "Nestlé",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855910/girste/nestle/cope.png",
+      "description": "",
+      "tags": [
+        "newsletter",
+        "copywriting",
+        "graphic design"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855913/girste/nestle/screenshot1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855916/girste/nestle/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855918/girste/nestle/screenshot3.png"
+        }
+      ]
+    },
+    {
+      "title": "Guruamiami",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857814/girste/guruamiami/cope.png",
+      "description": "",
+      "link": "https://www.instagram.com/guruamiami/",
+      "tags": [
+        "branding",
+        "website",
+        "stationery"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1763141270/girste/guru.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857821/girste/guruamiami/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857825/girste/guruamiami/screenshot3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857828/girste/guruamiami/screenshot4.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857831/girste/guruamiami/screenshot5.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857843/girste/guruamiami/screenshot6.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857846/girste/guruamiami/screenshot7.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857849/girste/guruamiami/screenshot8.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857852/girste/guruamiami/screenshot9.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857855/girste/guruamiami/screenshot10.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857858/girste/guruamiami/screenshot11.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857868/girste/guruamiami/screenshot12.png"
+        }
+      ]
+    },
+    {
+      "title": "Locman",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759858290/girste/locman/cope.png",
+      "description": "",
+      "tags": [
+        "art direction",
+        "adv",
+        "website"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759858294/girste/locman/screenshot1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759858297/girste/locman/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759858300/girste/locman/screenshot3.png"
+        }
+      ]
+    },
+    {
+      "title": "Random",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860058/girste/random/cope.png",
+      "description": "",
+      "tags": [],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860062/girste/random/screenshot1.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860065/girste/random/screenshot2.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1761248376/girste/random/frame2.png"
+        }
+      ]
+    },
+    {
+      "title": "Generative",
+      "image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860081/girste/generative/cope.png",
+      "description": "",
+      "tags": [],
+      "gallery": [
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860420/girste/generative/prima.webp"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860422/girste/generative/seconda.webp"
+        },
+       
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860108/girste/generative/image3.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860111/girste/generative/image4.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860113/girste/generative/image5.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860115/girste/generative/image6.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860119/girste/generative/image7.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860122/girste/generative/image8.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860124/girste/generative/image9.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860126/girste/generative/image10.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860128/girste/generative/image11.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860130/girste/generative/image12.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860133/girste/generative/image13.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860135/girste/generative/image14.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860138/girste/generative/image15.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860141/girste/generative/image16.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860147/girste/generative/image17.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860149/girste/generative/image18.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860151/girste/generative/image19.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860154/girste/generative/image20.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860155/girste/generative/image21.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860158/girste/generative/image22.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860161/girste/generative/image23.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860164/girste/generative/image24.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860166/girste/generative/image25.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860169/girste/generative/image26.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860171/girste/generative/image27.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860174/girste/generative/image28.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860178/girste/generative/image29.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860183/girste/generative/image30.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860186/girste/generative/image31.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860188/girste/generative/image32.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860190/girste/generative/image33.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860193/girste/generative/image34.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860195/girste/generative/image35.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860198/girste/generative/image36.png"
+        },
+        {
+          "type": "image",
+          "url": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759860200/girste/generative/image37.png"
+        }
+      ]
+    }
+  ]
+}

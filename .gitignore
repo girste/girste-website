@@ -1,0 +1,19 @@
+# Secrets and private files
+*.secret
+*.private
+config.json
+
+# Days source files (build scripts)
+/days/build.py
+/days/data.yml
+/days/*.example.yml
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/
+
+# Editor
+.vscode/
+.idea/
