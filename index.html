@@ -1,29 +1,55 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Designer and developer portfolio showcasing design projects and tech experiments.">
-    <title>Stefano Girard</title>
+    <meta name="description" content="Stefano Girard — Digital Product Builder. Designing and building end-to-end digital experiences with an AI-first approach.">
+    <title>Stefano Girard — Digital Product Builder</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=24">
+    <link rel="stylesheet" href="style.css?v=26">
 </head>
-<body class="home-list">
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="/" class="nav-brand">Stefano Girard</a>
+                <div class="nav-links">
+                    <a href="/design.html">Portfolio</a>
+                    <a href="/tech.html">Technology</a>
+                    <a href="/about.html">About</a>
+                    <a href="mailto:me@girste.com">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
     <main>
-        <nav class="main-nav">
-            <div class="nav-header">
-                <a href="/" class="nav-title">Stefano Girard</a>
-                <a href="mailto:me@girste.com" class="nav-subtitle">me@girste.com</a>
-            </div>
-            <div class="nav-links home-links">
-                <a href="/projects.html">design</a>
-                <span class="link-separator">+</span>
-                <a href="https://github.com/girste" target="_blank" rel="noopener">tech</a>
-            </div>
-        </nav>
+        <div class="container">
+            <section class="hero-section">
+                <h1>Digital Product Builder.</h1>
+                <p class="subhead">
+                    I bridge the gap between high-end Art Direction and modern development. I design and build end-to-end digital experiences using AI as a primary lever for speed and precision.
+                </p>
+
+                <div class="home-split">
+                    <a href="/design.html" class="split-card">
+                        <span class="card-num">01 / Portfolio</span>
+                        <h2 class="card-title">Visual Design & Creative Strategy</h2>
+                        <p class="card-desc">Branding, UI/UX design, and digital identities for global brands and boutique startups.</p>
+                        <span class="cta-link">View Projects →</span>
+                    </a>
+                    <a href="/tech.html" class="split-card">
+                        <span class="card-num">02 / Technology</span>
+                        <h2 class="card-title">AI-First Full-Stack Development</h2>
+                        <p class="card-desc">High-performance applications built with Vibe Coding, Cloudflare Edge, and agentic workflows.</p>
+                        <span class="cta-link">View Tech Stack →</span>
+                    </a>
+                </div>
+            </section>
+        </div>
     </main>
 </body>
 </html>

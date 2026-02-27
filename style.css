@@ -1,6 +1,13 @@
-/* ==========================================================================
-   Reset & Base Styles
-   ========================================================================== */
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+    --accent: #666666;
+    --border: #f0f0f0;
+    --max-width: 1440px;
+    --spacing-unit: 1rem;
+    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
 * {
     margin: 0;
@@ -8,716 +15,336 @@
     box-sizing: border-box;
 }
 
-:root {
-    --color-text: #ffffff;
-    --color-background: #000000;
-    --font-family: 'Inter', sans-serif;
-    --transition-ease: cubic-bezier(0.075, 0.82, 0.165, 1);
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: var(--font-family);
-    background: var(--color-background);
-    color: var(--color-text);
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-    font-weight: 400;
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 4vw;
 }
 
+/* Header & Navigation */
+header.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    padding: 1.5rem 0;
+    transition: var(--transition);
+}
 
-/* ==========================================================================
-   Navigation
-   ========================================================================== */
-
-.main-nav {
+nav.main-nav {
     display: flex;
-    flex-direction: column;
-    margin: 160px 16px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav-header {
-    margin-bottom: 80px;
-    font-size: 0;
-}
-
-.nav-title {
-    display: block;
-    font-size: 16px;
+.nav-brand {
     font-weight: 500;
-    opacity: 1;
-    line-height: 16px;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-subtitle {
-    display: block;
-    font-size: 11px;
-    font-weight: 400;
-    opacity: 0.5;
-    transition: opacity 0.2s;
-    line-height: 11px;
-    margin: 12px 0 0 0;
-    padding: 0;
-}
-
-.nav-subtitle:hover {
-    opacity: 1;
-}
-
-.nav-back-link {
-    opacity: 0.5;
-}
-
-.nav-back-link:hover {
-    opacity: 1;
-}
-
-.nav-current {
-    display: block;
-    font-size: 11px;
-    font-weight: 400;
-    opacity: 1;
-    line-height: 11px;
-    margin: 12px 0 0 0;
-    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: -0.01em;
 }
 
 .nav-links {
     display: flex;
-    flex-direction: column;
+    gap: 3rem;
 }
 
 .nav-links a {
-    font-size: 14px;
-    font-weight: 300;
-    opacity: 0.3;
-    transition: opacity 0.2s;
-    margin-bottom: 4px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    position: relative;
+}
+
+.nav-links a:after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--fg);
+    transition: var(--transition);
 }
 
 .nav-links a:hover {
+    color: var(--fg);
     opacity: 1;
 }
 
-body.home-list .nav-links a {
-    margin-bottom: 16px;
-}
-
-.home-links {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5em;
-}
-
-.home-links a {
-    margin-bottom: 0 !important;
-}
-
-.link-separator {
-    font-size: 14px;
-    font-weight: 300;
-    opacity: 0.2;
-    user-select: none;
-}
-
-
-/* ==========================================================================
-   Design Page
-   ========================================================================== */
-
-body.design .nav-links a {
-    display: block;
-    position: relative;
-    transition: none;
-}
-
-body.design .nav-links a span {
-    display: inline;
-}
-
-body.design .nav-links a img {
-    display: none;
-    position: absolute;
-    pointer-events: none;
-}
-
-
-/* ==========================================================================
-   Tech Page
-   ========================================================================== */
-
-.tech-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-}
-
-.tech-box {
-    display: block;
-    padding: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    transition: all 0.2s;
-}
-
-.tech-box:hover {
-    border-color: rgba(255, 255, 255, 0.5);
-}
-
-.tech-box h2 {
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 4px;
-}
-
-.tech-box p {
-    font-size: 12px;
-    opacity: 0.4;
-    line-height: 18px;
-}
-
-.tech-box-with-image {
-    padding: 0;
-    overflow: hidden;
-}
-
-.tech-box-with-image img {
+.nav-links a:hover:after, .nav-links a.active:after {
     width: 100%;
-    height: 140px;
-    object-fit: contain;
+}
+
+.nav-links a.active {
+    color: var(--fg);
+}
+
+/* Hero Section */
+section {
+    padding: 12rem 0 6rem;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.subhead {
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    color: var(--accent);
+    max-width: 800px;
+    line-height: 1.4;
+}
+
+/* Home Split */
+.home-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4vw;
+    margin-top: 8rem;
+}
+
+.split-card {
+    border-top: 1px solid var(--border);
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: var(--transition);
+}
+
+.split-card:hover {
+    border-top-color: var(--fg);
+}
+
+.card-num {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--accent);
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.card-desc {
+    color: var(--accent);
+    max-width: 400px;
+}
+
+.cta-link {
+    margin-top: auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Project Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6vw 4vw;
+    margin-top: 6rem;
+}
+
+.project-card {
     display: block;
-    background: #0a0a0a;
+    text-decoration: none;
+    color: inherit;
 }
 
-.tech-box-with-image h2,
-.tech-box-with-image p {
-    padding: 0 16px;
-}
-
-.tech-box-with-image h2 {
-    padding-top: 16px;
-}
-
-.tech-box-with-image p {
-    padding-bottom: 16px;
-}
-
-body.tech .nav-links a {
-    display: block;
+.image-container {
+    width: 100%;
+    aspect-ratio: 16/10;
+    overflow: hidden;
+    background: #f9f9f9;
+    margin-bottom: 1.5rem;
     position: relative;
-    transition: none;
 }
 
-body.tech .nav-links a > span {
-    display: inline;
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-body.tech .nav-links a > span span:first-child {
-    opacity: 0.5;
-    margin-left: 0.3em;
+.project-card:hover img {
+    transform: scale(1.05);
 }
 
-
-/* ==========================================================================
-   Desktop Styles (1020px+)
-   ========================================================================== */
-
-@media screen and (min-width: 1020px) {
-    body {
-        font-size: 24px;
-        line-height: 36px;
-    }
-
-    .main-nav {
-        margin: 160px 24px 160px calc(8.333% + 48px);
-    }
-
-    .nav-header {
-        margin-bottom: 120px;
-    }
-
-    .nav-title {
-        font-size: 24px;
-    }
-
-    .nav-links a {
-        font-size: 20px;
-        margin-bottom: 0;
-    }
-
-    body.home-list .nav-links a {
-        margin-bottom: 24px;
-    }
-
-    .link-separator {
-        font-size: 20px;
-    }
-
-    /* Animated line effect for Design page */
-    body.design .nav-links a::before {
-        content: '';
-        display: block;
-        float: left;
-        position: relative;
-        width: 0;
-        height: 2px;
-        top: 18px;
-        background: var(--color-text);
-        transition: width 0.4s var(--transition-ease),
-                    margin 0.4s var(--transition-ease);
-    }
-
-    body.design .nav-links a:hover::before {
-        width: 24px;
-        margin-right: 12px;
-    }
-
-    /* Image preview on hover */
-    body.design .nav-links a img {
-        display: none;
-        position: fixed;
-        top: 50%;
-        right: 8%;
-        transform: translateY(-50%);
-        width: 50vw;
-        max-width: 800px;
-        max-height: 600px;
-        object-fit: contain;
-    }
-
-    body.design .nav-links a:hover img {
-        display: block;
-    }
-
-    /* Tech grid - 3 columns on desktop */
-    .tech-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-    }
-
-    .tech-box {
-        padding: 20px;
-    }
-
-    .tech-box h2 {
-        font-size: 16px;
-    }
-
-    .tech-box p {
-        font-size: 14px;
-    }
-
-    .tech-box-with-image h2,
-    .tech-box-with-image p {
-        padding: 0 20px;
-    }
-
-    .tech-box-with-image h2 {
-        padding-top: 20px;
-    }
-
-    .tech-box-with-image p {
-        padding-bottom: 20px;
-    }
-
-    .tech-box-with-image img {
-        height: 160px;
-    }
-}
-
-
-/* ==========================================================================
-   Tablet Styles (760px - 1019px)
-   ========================================================================== */
-
-@media screen and (min-width: 760px) and (max-width: 1019px) {
-    body {
-        font-size: 18px;
-        line-height: 28px;
-    }
-}
-
-
-/* ==========================================================================
-   Project Detail Pages
-   ========================================================================== */
-
-.project-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 16px;
+.project-meta {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: var(--color-background);
-    z-index: 100;
+    align-items: baseline;
 }
 
-.project-header a {
-    font-size: 16px;
+.project-name {
+    font-size: 1.4rem;
     font-weight: 500;
-    opacity: 0.3;
-    transition: opacity 0.2s;
+    letter-spacing: -0.01em;
 }
 
-.project-header a:hover {
-    opacity: 1;
-}
-
-.project-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 16px 40px;
-}
-
-.project-content h1 {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
-.project-link {
-    display: inline-block;
-    font-size: 16px;
-    opacity: 0.3;
-    margin-bottom: 40px;
-    transition: opacity 0.2s;
-}
-
-.project-link:hover {
-    opacity: 1;
-}
-
-.project-gallery {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.project-gallery img,
-.project-gallery video,
-.project-gallery iframe {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-/* ==========================================================================
-   Tech Lab
-   ========================================================================== */
-
-.tech-hub {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 16px 40px;
-}
-
-.tech-hub h1 {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 12px;
-}
-
-.tech-intro {
-    font-size: 18px;
-    opacity: 0.6;
-    margin-bottom: 60px;
-}
-
-.tools-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 24px;
-}
-
-.tool-card {
-    padding: 32px;
-    border: 1px solid var(--color-text);
-    transition: background 0.2s;
-    position: relative;
-    display: block;
-}
-
-.tool-card:hover {
-    background: rgba(255, 255, 255, 0.05);
-}
-
-.tool-card.coming-soon {
-    opacity: 0.4;
-    cursor: default;
-}
-
-.tool-card.coming-soon:hover {
-    background: transparent;
-}
-
-.tool-card h2 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 12px;
-}
-
-.tool-card p {
-    font-size: 16px;
-    opacity: 0.6;
-    line-height: 1.5;
-    margin-bottom: 16px;
-}
-
-.tool-status {
-    display: inline-block;
-    font-size: 12px;
+.project-cat {
+    font-size: 0.9rem;
+    color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    opacity: 0.4;
 }
 
+/* Tech Section */
+.tech-pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vw;
+    margin-top: 6rem;
+}
 
-/* ==========================================================================
-   Tech Tool Pages
-   ========================================================================== */
+.pillar {
+    border-top: 1px solid var(--border);
+    padding-top: 2rem;
+}
 
-.tool-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 16px;
+.pillar h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+}
+
+.pillar ul {
+    list-style: none;
     display: flex;
-    align-items: center;
-    gap: 24px;
-    background: var(--color-background);
-    z-index: 100;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.tool-header h1 {
-    font-size: 18px;
+.pillar li {
+    font-size: 1.1rem;
+    color: var(--accent);
+}
+
+/* Project Details */
+.detail-hero {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 6rem;
+}
+
+.detail-specs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.spec-item h4 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.spec-item p {
+    font-size: 1rem;
     font-weight: 500;
 }
 
-.nav-back {
-    font-size: 16px;
-    opacity: 0.3;
-    transition: opacity 0.2s;
-}
-
-.nav-back:hover {
-    opacity: 1;
-}
-
-.tool-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 16px 60px;
+.gallery-stack {
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 6vw;
 }
 
-.upload-zone {
-    border: 2px dashed var(--color-text);
-    border-radius: 8px;
-    padding: 80px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s;
-    min-height: 300px;
+.gallery-stack figure {
+    width: 100%;
 }
 
-.upload-zone:hover {
-    border-color: rgba(255, 255, 255, 0.6);
-    background: rgba(255, 255, 255, 0.02);
-}
-
-.upload-zone.dragover {
-    border-color: var(--color-text);
-    background: rgba(255, 255, 255, 0.05);
-}
-
-.upload-prompt p {
-    font-size: 18px;
-    margin-bottom: 8px;
-}
-
-.upload-prompt small {
-    font-size: 14px;
-    opacity: 0.4;
-}
-
-.processing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    padding: 80px 40px;
-}
-
-.spinner {
-    width: 40px;
-    height: 40px;
-    border: 3px solid rgba(255, 255, 255, 0.1);
-    border-top-color: var(--color-text);
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
-
-.result {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.comparison {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
-}
-
-.image-box {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.image-box label {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    opacity: 0.4;
-}
-
-.image-box img {
+.gallery-stack img, .gallery-stack video {
     width: 100%;
     height: auto;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
+    display: block;
+    max-height: 90vh;
+    object-fit: contain;
+    background: #fdfdfd;
 }
 
-.actions {
+.detail-nav {
     display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6rem 0;
+    border-top: 1px solid var(--border);
+    margin-top: 6rem;
 }
 
-.btn-primary,
-.btn-secondary {
-    padding: 12px 24px;
-    font-size: 16px;
-    font-family: inherit;
-    cursor: pointer;
-    border: 1px solid var(--color-text);
-    background: transparent;
-    color: var(--color-text);
-    transition: all 0.2s;
+/* About Page */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 8vw;
+    margin-top: 4rem;
 }
 
-.btn-primary:hover {
-    background: var(--color-text);
-    color: var(--color-background);
-}
-
-.btn-secondary {
-    opacity: 0.4;
-}
-
-.btn-secondary:hover {
-    opacity: 1;
-}
-
-.error {
+.experience-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    padding: 40px;
-    border: 1px solid rgba(255, 100, 100, 0.3);
-    background: rgba(255, 100, 100, 0.05);
-    border-radius: 4px;
+    gap: 3rem;
 }
 
-.error p {
-    color: #ff6b6b;
-    text-align: center;
+.exp-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1.5rem;
 }
 
-
-/* ==========================================================================
-   Mobile Styles (< 760px)
-   ========================================================================== */
-
-@media screen and (max-width: 759px) {
-    .nav-header {
-        margin-bottom: 100px;
-    }
-
-    body.design .main-nav,
-    body.tech .main-nav,
-    body.tech-lab .main-nav {
-        margin: 160px 16px 50vh 16px;
-    }
-
-    body.design .nav-links a,
-    body.tech .nav-links a,
-    body.tech-lab .nav-links a {
-        margin-bottom: 4px;
-    }
-
-    .project-content {
-        padding-top: 60px;
-    }
-
-    .project-gallery {
-        gap: 20px;
-    }
+.exp-role {
+    font-weight: 500;
 }
 
+.exp-date {
+    color: var(--accent);
+    font-size: 0.9rem;
+}
 
-/* ==========================================================================
-   Desktop Project Detail
-   ========================================================================== */
+/* Mobile Adjustments */
+@media (max-width: 1024px) {
+    .project-grid { grid-template-columns: 1fr; }
+    .home-split { grid-template-columns: 1fr; gap: 4rem; }
+    .tech-pillars { grid-template-columns: 1fr; }
+    .about-grid { grid-template-columns: 1fr; }
+    .detail-specs { grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+}
 
-@media screen and (min-width: 1020px) {
-    .project-header {
-        padding: 24px;
-    }
-
-    .project-header a {
-        font-size: 24px;
-    }
-
-    .project-content {
-        padding: 120px 48px 80px;
-    }
-
-    .project-content h1 {
-        font-size: 48px;
-        margin-bottom: 24px;
-    }
-
-    .project-link {
-        font-size: 24px;
-    }
-
-    .project-gallery {
-        gap: 60px;
-    }
+@media (max-width: 768px) {
+    .nav-links { display: none; }
+    header.site-header { padding: 1rem 0; }
+    section { padding: 8rem 0 4rem; }
 }
