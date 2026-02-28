@@ -7,8 +7,8 @@
     <title>Technology — Stefano Girard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=26">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=27">
 </head>
 <body>
     <header class="site-header">
@@ -27,72 +27,81 @@
 
     <main>
         <div class="container">
-            <section class="tech-hero">
-                <h1>AI-First Development.</h1>
+            <section class="tech-section" style="padding: 12rem 0 6rem;">
+                <h1>AI-First<br>Development.</h1>
                 <p class="subhead">
                     I build digital products with the speed of a full team by leveraging a modern, AI-assisted development workflow. High performance at the edge, spec-driven architecture.
                 </p>
 
-                <div class="tech-pillars">
-                    <div class="pillar">
-                        <h3>AI Workflow</h3>
-                        <ul>
-                            <li>Vibe Coding (Claude Code, Gemini)</li>
-                            <li>MCP Servers & Tooling</li>
-                            <li>Agentic Automations (n8n)</li>
-                            <li>LLM-Assisted Design-to-Code</li>
-                        </ul>
-                    </div>
-                    <div class="pillar">
-                        <h3>Core Stack</h3>
-                        <ul>
-                            <li>Cloudflare Workers / Pages</li>
-                            <li>Astro / TypeScript / React</li>
-                            <li>Turso / SQLite Edge Database</li>
-                            <li>Tailwind CSS / PostCSS</li>
-                        </ul>
-                    </div>
-                    <div class="pillar">
-                        <h3>Infrastructure</h3>
-                        <ul>
-                            <li>Hetzner VPS / Ubuntu Server</li>
-                            <li>Docker / GitHub Actions CI/CD</li>
-                            <li>Cloudflare R2 / S3 Storage</li>
-                            <li>DNS, TLS & Global Edge Layer</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="experience-list" style="margin-top: 10rem;">
-                    <h2 style="font-size: 2.5rem; margin-bottom: 3rem;">Recent Implementations</h2>
-                    
-                    <div class="exp-item">
-                        <div class="exp-info">
-                            <span class="exp-role">E-commerce Engine</span>
-                            <p style="font-size: 0.9rem; color: var(--accent);">Cloudflare Workers, Stripe API, Turso Multi-tenancy.</p>
+                <div class="tech-grid">
+                    <div class="tech-pillars">
+                        <div class="pillar">
+                            <h3>AI Workflow</h3>
+                            <ul>
+                                <li>Vibe Coding (Claude Code, Gemini)</li>
+                                <li>MCP Servers & Tooling</li>
+                                <li>Agentic Automations (n8n)</li>
+                                <li>LLM-Assisted Design-to-Code</li>
+                            </ul>
                         </div>
-                        <span class="exp-date">2024</span>
-                    </div>
-
-                    <div class="exp-item">
-                        <div class="exp-info">
-                            <span class="exp-role">AI Content Agent</span>
-                            <p style="font-size: 0.9rem; color: var(--accent);">Python, OpenRouter API, GitHub Actions Automation.</p>
+                        <div class="pillar">
+                            <h3>Core Stack</h3>
+                            <ul>
+                                <li>Cloudflare Workers / Pages</li>
+                                <li>Astro / TypeScript / React</li>
+                                <li>Turso / SQLite Edge Database</li>
+                                <li>Tailwind CSS / PostCSS</li>
+                            </ul>
                         </div>
-                        <span class="exp-date">2024</span>
-                    </div>
-
-                    <div class="exp-item">
-                        <div class="exp-info">
-                            <span class="exp-role">Digital Product Dashboard</span>
-                            <p style="font-size: 0.9rem; color: var(--accent);">Next.js, Tailwind CSS, Sentry Monitoring.</p>
+                        <div class="pillar">
+                            <h3>Infrastructure</h3>
+                            <ul>
+                                <li>Hetzner VPS / Ubuntu Server</li>
+                                <li>Docker / GitHub Actions CI/CD</li>
+                                <li>Cloudflare R2 / S3 Storage</li>
+                                <li>DNS, TLS & Global Edge Layer</li>
+                            </ul>
                         </div>
-                        <span class="exp-date">2023</span>
+                        <div class="pillar">
+                            <h3>Integrations</h3>
+                            <ul>
+                                <li>Stripe API / Webhooks</li>
+                                <li>Email Transational (Postmark)</li>
+                                <li>Sentry / Monitoring</li>
+                                <li>Python / Data Scripts</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div style="margin-top: 6rem; padding-bottom: 6rem;">
-                    <a href="https://github.com/girste" target="_blank" class="card-title" style="text-decoration: underline;">View Repos on GitHub ↗</a>
+                    <div class="recent-implementations">
+                        <h3 style="font-size: 0.7rem; text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem;">Recent Case Studies</h3>
+                        <div class="timeline">
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <span style="font-weight: 500; display: block;">E-commerce Engine</span>
+                                    <span style="font-size: 0.85rem; color: var(--accent);">Cloudflare Workers / Stripe / Turso</span>
+                                </div>
+                                <span class="year" style="font-size: 0.85rem; color: var(--accent);">2024</span>
+                            </div>
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <span style="font-weight: 500; display: block;">AI Content Agent</span>
+                                    <span style="font-size: 0.85rem; color: var(--accent);">Python / OpenRouter / Actions</span>
+                                </div>
+                                <span class="year" style="font-size: 0.85rem; color: var(--accent);">2024</span>
+                            </div>
+                            <div class="time-item">
+                                <div class="item-info">
+                                    <span style="font-weight: 500; display: block;">Multitenant Dashboard</span>
+                                    <span style="font-size: 0.85rem; color: var(--accent);">Next.js / Tailwind / SQLite</span>
+                                </div>
+                                <span class="year" style="font-size: 0.85rem; color: var(--accent);">2023</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: 3rem;">
+                            <a href="https://github.com/girste" target="_blank" style="text-decoration: underline; font-weight: 500;">Visit GitHub Profile ↗</a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
