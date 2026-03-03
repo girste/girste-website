@@ -10,7 +10,7 @@
       "live_url": "https://marlus.it",
       "live_text": "marlus.it"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768246/girste/marlus/cope.png",
+    "cover_image": "https://media.girste.com/girste/marlus/cope.png",
     "featured_portfolio": true,
     "featured_home": true
   },
@@ -25,7 +25,7 @@
       "live_url": "https://hiki3d.com",
       "live_text": "hiki3d.com"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768292/girste/hiki/cope.png",
+    "cover_image": "https://media.girste.com/girste/hiki/cope.png",
     "featured_portfolio": true
   },
   {
@@ -38,7 +38,7 @@
       "category": "AI First Project",
       "live_plain": "Archived"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768217/girste/krrrd/cope.png",
+    "cover_image": "https://media.girste.com/girste/krrrd/cope.png",
     "featured_portfolio": true
   },
   {
@@ -52,7 +52,7 @@
       "live_url": "https://violetandcrystal.com",
       "live_text": "violetandcrystal.com"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1757424089/girste/fjmuxkakjxm6zzxxqmsn.webp"
+    "cover_image": "https://media.girste.com/girste/fjmuxkakjxm6zzxxqmsn.webp"
   },
   {
     "slug": "pandaroni",
@@ -64,7 +64,7 @@
       "category": "Branding / Shop",
       "live_plain": "Piazza Verdi 40, La Spezia"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768270/girste/pandaroni/cope.png"
+    "cover_image": "https://media.girste.com/girste/pandaroni/cope.png"
   },
   {
     "slug": "gin104",
@@ -77,7 +77,7 @@
       "live_url": "https://104nolimits.com",
       "live_text": "104nolimits.com"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769897/girste/104/cope.png",
+    "cover_image": "https://media.girste.com/girste/104/cope.png",
     "featured_portfolio": true
   },
   {
@@ -91,7 +91,7 @@
       "live_url": "https://www.instagram.com/nanaburger_laspezia/",
       "live_text": "Instagram"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857879/girste/nana/cope.png"
+    "cover_image": "https://media.girste.com/girste/nana/cope.png"
   },
   {
     "slug": "vulcanus",
@@ -105,7 +105,7 @@
       "live_text": "vulcanusgrill.it",
       "live_note": "Deprecated"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850133/girste/vulcanus/cope.png"
+    "cover_image": "https://media.girste.com/girste/vulcanus/cope.png"
   },
   {
     "slug": "banality",
@@ -118,7 +118,7 @@
       "live_url": "https://www.instagram.com/banality.wear/",
       "live_text": "@banality.wear"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857938/girste/banality/cope.png"
+    "cover_image": "https://media.girste.com/girste/banality/cope.png"
   },
   {
     "slug": "codebeans",
@@ -133,7 +133,7 @@
       "live_url": "https://codebeans.it",
       "live_text": "codebeans.it"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769914/girste/codebeans/cope.png",
+    "cover_image": "https://media.girste.com/girste/codebeans/cope.png",
     "featured_portfolio": true,
     "featured_home": true
   },
@@ -149,7 +149,7 @@
       "type_value": "Agency Work",
       "live_plain": "—"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769926/girste/legami/cope.png",
+    "cover_image": "https://media.girste.com/girste/legami/cope.png",
     "featured_portfolio": true
   },
   {
@@ -164,7 +164,7 @@
       "type_value": "Agency Work",
       "live_plain": "—"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759849980/girste/abb/cope.png"
+    "cover_image": "https://media.girste.com/girste/abb/cope.png"
   },
   {
     "slug": "fpt",
@@ -179,7 +179,7 @@
       "live_url": "https://www.fptindustrial.com/it",
       "live_text": "fptindustrial.com"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850003/girste/fpt/cope.png"
+    "cover_image": "https://media.girste.com/girste/fpt/cope.png"
   },
   {
     "slug": "itas",
@@ -191,7 +191,7 @@
       "category": "Agency Work",
       "live_plain": "—"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850069/girste/itas/cope.png"
+    "cover_image": "https://media.girste.com/girste/itas/cope.png"
   },
   {
     "slug": "stellantis",
@@ -205,7 +205,7 @@
       "type_value": "Agency",
       "live_plain": "—"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850109/girste/stellantis/cope.png"
+    "cover_image": "https://media.girste.com/girste/stellantis/cope.png"
   },
   {
     "slug": "ferrero",
@@ -219,7 +219,7 @@
       "type_value": "Agency",
       "live_plain": "—"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855625/girste/ferrero/cope.png"
+    "cover_image": "https://media.girste.com/girste/ferrero/cope.png"
   },
   {
     "slug": "hashy",
@@ -232,7 +232,7 @@
       "live_url": "https://www.hashyallinone.com/",
       "live_text": "hashyallinone.com"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855655/girste/hashy/cope.png"
+    "cover_image": "https://media.girste.com/girste/hashy/cope.png"
   },
   {
     "slug": "micam",
@@ -247,7 +247,7 @@
       "live_url": "https://micam.it/",
       "live_text": "micam.it"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855894/girste/micam/cope.jpg"
+    "cover_image": "https://media.girste.com/girste/micam/cope.jpg"
   },
   {
     "slug": "nestle",
@@ -259,7 +259,7 @@
       "category": "Agency Work",
       "live_plain": "—"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855910/girste/nestle/cope.png"
+    "cover_image": "https://media.girste.com/girste/nestle/cope.png"
   },
   {
     "slug": "guruamiami",
@@ -274,7 +274,7 @@
       "live_url": "https://www.instagram.com/guruamiami/",
       "live_text": "Instagram"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857814/girste/guruamiami/cope.png"
+    "cover_image": "https://media.girste.com/girste/guruamiami/cope.png"
   },
   {
     "slug": "locman",
@@ -288,7 +288,7 @@
       "type_value": "Agency",
       "live_plain": "Archived"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759858290/girste/locman/cope.png"
+    "cover_image": "https://media.girste.com/girste/locman/cope.png"
   },
   {
     "slug": "sidewalk",
@@ -302,6 +302,6 @@
       "type_value": "Collab",
       "live_plain": "—"
     },
-    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756327286/aitf5rmijeb1sqc7m5cj.webp"
+    "cover_image": "https://media.girste.com/aitf5rmijeb1sqc7m5cj.webp"
   }
 ]
