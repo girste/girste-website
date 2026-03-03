@@ -1,0 +1,52 @@
+---
+layout: base.njk
+activeNav: design
+---
+{% set project = projects | getProject(slug) %}
+{% set next = projects | nextProject(slug) %}
+        <div class="container">
+            <section class="detail-hero">
+                <h1>{{ project.name }}</h1>
+                <p class="subhead">{{ subhead }}</p>
+
+                <div class="detail-specs">
+                    <div class="spec-item">
+                        <h4>Year</h4>
+                        <p>{{ project.year }}</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Role</h4>
+                        <p>{{ project.specs.role }}</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Category</h4>
+                        <p>{{ project.specs.category }}</p>
+                    </div>
+                    {% if project.specs.type_label %}
+                    <div class="spec-item">
+                        <h4>{{ project.specs.type_label }}</h4>
+                        <p>{{ project.specs.type_value }}</p>
+                    </div>
+                    {% endif %}
+                    <div class="spec-item">
+                        <h4>Live</h4>
+                        {% if project.specs.live_url %}
+                        <a href="{{ project.specs.live_url }}" target="_blank" rel="noopener" style="text-decoration: underline;">{{ project.specs.live_text }}</a>{% if project.specs.live_note %} <span style="color:var(--accent);">({{ project.specs.live_note }})</span>{% endif %}
+                        {% else %}
+                        <span>{{ project.specs.live_plain }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="project-body">
+                    {{ content | safe }}
+                </div>
+
+                <div class="detail-nav">
+                    <a href="/pages/design.html" style="font-weight: 500;">← Portfolio</a>
+                    {% if next %}
+                    <a href="/projects/{{ next.slug }}.html" style="font-weight: 500;">Next Project →</a>
+                    {% endif %}
+                </div>
+            </section>
+        </div>

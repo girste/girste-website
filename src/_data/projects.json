@@ -1,0 +1,307 @@
+[
+  {
+    "slug": "marlus",
+    "name": "Amaro Màrlus",
+    "year": 2023,
+    "card_tag": "Branding / E-commerce",
+    "specs": {
+      "role": "Creative Direction",
+      "category": "Branding / E-commerce",
+      "live_url": "https://marlus.it",
+      "live_text": "marlus.it"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768246/girste/marlus/cope.png",
+    "featured_portfolio": true,
+    "featured_home": true
+  },
+  {
+    "slug": "hiki3d",
+    "name": "Hiki3D",
+    "year": 2025,
+    "card_tag": "Website / 3D",
+    "specs": {
+      "role": "Creative Direction",
+      "category": "Website / 3D",
+      "live_url": "https://hiki3d.com",
+      "live_text": "hiki3d.com"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768292/girste/hiki/cope.png",
+    "featured_portfolio": true
+  },
+  {
+    "slug": "krrrd",
+    "name": "KRRRD",
+    "year": 2025,
+    "card_tag": "AI First Project",
+    "specs": {
+      "role": "Founder",
+      "category": "AI First Project",
+      "live_plain": "Archived"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768217/girste/krrrd/cope.png",
+    "featured_portfolio": true
+  },
+  {
+    "slug": "violet",
+    "name": "Violet & Crystal",
+    "year": 2025,
+    "card_tag": "E-commerce / Shop",
+    "specs": {
+      "role": "Branding & Web",
+      "category": "E-commerce / Shop",
+      "live_url": "https://violetandcrystal.com",
+      "live_text": "violetandcrystal.com"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1757424089/girste/fjmuxkakjxm6zzxxqmsn.webp"
+  },
+  {
+    "slug": "pandaroni",
+    "name": "Pandaroni",
+    "year": 2025,
+    "card_tag": "Branding / Shop",
+    "specs": {
+      "role": "Creative Direction",
+      "category": "Branding / Shop",
+      "live_plain": "Piazza Verdi 40, La Spezia"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759768270/girste/pandaroni/cope.png"
+  },
+  {
+    "slug": "gin104",
+    "name": "104NoLimits",
+    "year": 2024,
+    "card_tag": "E-commerce",
+    "specs": {
+      "role": "Digital Product Design",
+      "category": "E-commerce",
+      "live_url": "https://104nolimits.com",
+      "live_text": "104nolimits.com"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769897/girste/104/cope.png",
+    "featured_portfolio": true
+  },
+  {
+    "slug": "nana-burger",
+    "name": "Nana Burger",
+    "year": 2024,
+    "card_tag": "Social / Digital Branding",
+    "specs": {
+      "role": "Art Direction",
+      "category": "Social / Digital Branding",
+      "live_url": "https://www.instagram.com/nanaburger_laspezia/",
+      "live_text": "Instagram"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857879/girste/nana/cope.png"
+  },
+  {
+    "slug": "vulcanus",
+    "name": "Vulcanus",
+    "year": 2025,
+    "card_tag": "B2B Platform",
+    "specs": {
+      "role": "Digital Products",
+      "category": "B2B Platform",
+      "live_url": "https://www.vulcanusgrill.it/",
+      "live_text": "vulcanusgrill.it",
+      "live_note": "Deprecated"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850133/girste/vulcanus/cope.png"
+  },
+  {
+    "slug": "banality",
+    "name": "Banality",
+    "year": 2018,
+    "card_tag": "Clothing Project",
+    "specs": {
+      "role": "Founder",
+      "category": "Clothing Project",
+      "live_url": "https://www.instagram.com/banality.wear/",
+      "live_text": "@banality.wear"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857938/girste/banality/cope.png"
+  },
+  {
+    "slug": "codebeans",
+    "name": "Codebeans",
+    "year": 2024,
+    "card_tag": "Web Design",
+    "specs": {
+      "role": "Branding",
+      "category": "Web Design",
+      "type_label": "Type",
+      "type_value": "Collaboration",
+      "live_url": "https://codebeans.it",
+      "live_text": "codebeans.it"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769914/girste/codebeans/cope.png",
+    "featured_portfolio": true,
+    "featured_home": true
+  },
+  {
+    "slug": "legami",
+    "name": "Legami",
+    "year": 2024,
+    "card_tag": "Copywriting",
+    "specs": {
+      "role": "Graphic Design",
+      "category": "Copywriting",
+      "type_label": "Type",
+      "type_value": "Agency Work",
+      "live_plain": "—"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/f_auto,q_auto/v1759769926/girste/legami/cope.png",
+    "featured_portfolio": true
+  },
+  {
+    "slug": "abb",
+    "name": "ABB Hospitality",
+    "year": 2024,
+    "card_tag": "Agency Work",
+    "specs": {
+      "role": "Newsletter / Design",
+      "category": "Graphic Design / B2B",
+      "type_label": "Type",
+      "type_value": "Agency Work",
+      "live_plain": "—"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759849980/girste/abb/cope.png"
+  },
+  {
+    "slug": "fpt",
+    "name": "FPT",
+    "year": 2024,
+    "card_tag": "UX/UI",
+    "specs": {
+      "role": "Web Design",
+      "category": "UX/UI",
+      "type_label": "Type",
+      "type_value": "Agency",
+      "live_url": "https://www.fptindustrial.com/it",
+      "live_text": "fptindustrial.com"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850003/girste/fpt/cope.png"
+  },
+  {
+    "slug": "itas",
+    "name": "ITAS",
+    "year": 2024,
+    "card_tag": "Agency Work",
+    "specs": {
+      "role": "Presentation",
+      "category": "Agency Work",
+      "live_plain": "—"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850069/girste/itas/cope.png"
+  },
+  {
+    "slug": "stellantis",
+    "name": "Stellantis",
+    "year": 2024,
+    "card_tag": "Icon Design",
+    "specs": {
+      "role": "UX/UI",
+      "category": "Icon Design",
+      "type_label": "Type",
+      "type_value": "Agency",
+      "live_plain": "—"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759850109/girste/stellantis/cope.png"
+  },
+  {
+    "slug": "ferrero",
+    "name": "Ferrero",
+    "year": 2022,
+    "card_tag": "Web Design",
+    "specs": {
+      "role": "Newsletter",
+      "category": "Web Design",
+      "type_label": "Type",
+      "type_value": "Agency",
+      "live_plain": "—"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855625/girste/ferrero/cope.png"
+  },
+  {
+    "slug": "hashy",
+    "name": "Hashy",
+    "year": 2025,
+    "card_tag": "B2B E-commerce",
+    "specs": {
+      "role": "Web Design",
+      "category": "B2B E-commerce",
+      "live_url": "https://www.hashyallinone.com/",
+      "live_text": "hashyallinone.com"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855655/girste/hashy/cope.png"
+  },
+  {
+    "slug": "micam",
+    "name": "MICAM",
+    "year": 2023,
+    "card_tag": "Blog / Digital Branding",
+    "specs": {
+      "role": "Newsletter",
+      "category": "Blog / Digital Branding",
+      "type_label": "Type",
+      "type_value": "Agency Work",
+      "live_url": "https://micam.it/",
+      "live_text": "micam.it"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855894/girste/micam/cope.jpg"
+  },
+  {
+    "slug": "nestle",
+    "name": "Nestlé",
+    "year": 2021,
+    "card_tag": "Agency Work",
+    "specs": {
+      "role": "Newsletter",
+      "category": "Agency Work",
+      "live_plain": "—"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759855910/girste/nestle/cope.png"
+  },
+  {
+    "slug": "guruamiami",
+    "name": "Guruamiami",
+    "year": 2024,
+    "card_tag": "Branding",
+    "specs": {
+      "role": "Art Direction",
+      "category": "Branding",
+      "type_label": "Type",
+      "type_value": "Friendly Work",
+      "live_url": "https://www.instagram.com/guruamiami/",
+      "live_text": "Instagram"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759857814/girste/guruamiami/cope.png"
+  },
+  {
+    "slug": "locman",
+    "name": "Locman",
+    "year": 2021,
+    "card_tag": "Web Design",
+    "specs": {
+      "role": "Art Direction",
+      "category": "Web Design",
+      "type_label": "Type",
+      "type_value": "Agency",
+      "live_plain": "Archived"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1759858290/girste/locman/cope.png"
+  },
+  {
+    "slug": "sidewalk",
+    "name": "Sidewalk Art Gallery",
+    "year": 2018,
+    "card_tag": "Creative Direction",
+    "specs": {
+      "role": "Brand Direction",
+      "category": "Creative Direction",
+      "type_label": "Type",
+      "type_value": "Collab",
+      "live_plain": "—"
+    },
+    "cover_image": "https://res.cloudinary.com/dqzwmnpdi/image/upload/v1756327286/aitf5rmijeb1sqc7m5cj.webp"
+  }
+]

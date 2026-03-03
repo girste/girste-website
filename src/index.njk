@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: "Stefano Girard — Digital Product Builder"
+description: "Stefano Girard — Digital Product Builder. Designing and building end-to-end digital experiences with an AI-first approach."
+---
+        <div class="container">
+            <section class="hero">
+                <h1>Digital Product<br>Builder.</h1>
+                <p class="subhead">
+                    I bridge the gap between high-end Art Direction and modern development. I design and build end-to-end digital experiences using AI as a primary lever for speed and precision.
+                </p>
+
+                <div class="simple-split">
+                    <div class="split-opt">
+                        <h3>Selection 01</h3>
+                        <a href="/pages/design.html">Design Portfolio →</a>
+                    </div>
+                    <div class="split-opt">
+                        <h3>Selection 02</h3>
+                        <a href="/pages/tech.html">AI-First Stack →</a>
+                    </div>
+                </div>
+
+                <span class="featured-label">Featured Projects</span>
+                <div class="home-projects">
+                    {% for p in projects %}
+                    {% if p.featured_home %}
+                    <a href="projects/{{ p.slug }}.html" class="project-card">
+                        <div class="img-wrap">
+                            <img src="{{ p.cover_image }}" alt="{{ p.name }}" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h4>{{ p.name }}</h4>
+                            <span>{{ p.card_tag }}</span>
+                        </div>
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </section>
+        </div>

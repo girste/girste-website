@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: "Archive — Stefano Girard"
+activeNav: design
+permalink: /pages/archive.html
+---
+        <div class="container">
+            <section class="archive-section">
+                <h1>Archive</h1>
+                <p class="subhead">A complete list of visual projects, brand identities, and tech experiments from 2018 to present.</p>
+
+                <div class="archive-list">
+                    <div class="archive-item label" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); border-bottom: none; pointer-events: none;">
+                        <span style="width: 56px;"></span>
+                        <span class="year">Year</span>
+                        <span class="title">Project</span>
+                        <span class="role">Category</span>
+                    </div>
+                    {% for p in projects | sortByYear %}
+                    <a href="/projects/{{ p.slug }}.html" class="archive-item">
+                        <img src="{{ p.cover_image }}" class="archive-icon" alt="">
+                        <span class="year">{{ p.year }}</span>
+                        <span class="title">{{ p.name }}</span>
+                        <span class="role">{{ p.card_tag }}</span>
+                    </a>
+                    {% endfor %}
+                </div>
+
+                <div style="margin-top: 6rem;">
+                    <a href="/pages/design.html" style="font-weight: 500;">← Back to Portfolio</a>
+                </div>
+            </section>
+        </div>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width">
+    {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+    <title>{{ title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css?v=27">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="/" class="nav-brand">Stefano Girard</a>
+                <div class="nav-links">
+                    <a href="/pages/design.html"{% if activeNav == "design" %} class="active"{% endif %}>Design</a>
+                    <a href="/pages/tech.html"{% if activeNav == "tech" %} class="active"{% endif %}>Tech</a>
+                    <a href="/pages/about.html"{% if activeNav == "about" %} class="active"{% endif %}>Me</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {{ content | safe }}
+    </main>
+</body>
+</html>
