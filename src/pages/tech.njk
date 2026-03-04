@@ -10,44 +10,88 @@ permalink: /pages/tech.html
                 <p class="subhead">I build digital products with the speed of a full team by leveraging a modern, AI-assisted development workflow.</p>
 
                 <div class="tech-grid">
-                    <div class="tech-pillars">
-                        <div class="pillar">
-                            <h3>AI Workflow</h3>
+                    <div>
+                        <!-- ACCORDION: MY TOOLS -->
+                        <details class="tech-accordion" open>
+                            <summary>My Tools</summary>
+                            <div class="tech-pillars">
+                                <div class="pillar">
+                                    <h3>AI Workflow</h3>
+                                    <ul>
+                                        <li>Claude Code / Github Copilot</li>
+                                        <li>OpenRouter API</li>
+                                        <li>MCP — Skills &amp; Tooling</li>
+                                        <li>Agentic Automations (n8n)</li>
+                                        <li>Spec-Driven Coding</li>
+                                    </ul>
+                                </div>
+                                <div class="pillar">
+                                    <h3>Core Stack</h3>
+                                    <ul>
+                                        <li>TypeScript / AI-Driven</li>
+                                        <li>Astro / 11ty</li>
+                                        <li>Cloudflare Workers &amp; Pages</li>
+                                        <li>Turso — SQLite Edge</li>
+                                        <li>Bash</li>
+                                    </ul>
+                                </div>
+                                <div class="pillar">
+                                    <h3>Infrastructure</h3>
+                                    <ul>
+                                        <li>Hetzner VPS / Ubuntu Server</li>
+                                        <li>Proxmox</li>
+                                        <li>Docker / GitHub Actions CI/CD</li>
+                                        <li>Cloudflare R2 / S3 Storage</li>
+                                        <li>DNS, TLS &amp; Global Edge Layer</li>
+                                    </ul>
+                                </div>
+                                <div class="pillar">
+                                    <h3>Integrations</h3>
+                                    <ul>
+                                        <li>Stripe API / Webhooks</li>
+                                        <li>Email Transactional (Postmark)</li>
+                                        <li>Sentry / Monitoring</li>
+                                        <li>Python / Data Scripts</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </details>
+
+                        <!-- AI EARLY ADOPTER -->
+                        <div class="tech-prose">
+                            <p>I have been an early adopter of AI tools since the beginning. Pre-alpha and beta access on Dall-E, Midjourney, Claude Code and many others along the way. The image below is a snapshot of my first months with OpenRouter, which became a central part of my workflow for routing and comparing models across providers.</p>
+                            <figure class="tech-img-fig">
+                                <a href="https://media.girste.com/girste/wrap-openrouter.png" target="_blank" rel="noopener">
+                                    <img src="https://media.girste.com/girste/wrap-openrouter.png" alt="OpenRouter wrap-up" loading="lazy">
+                                </a>
+                                <figcaption>First months on OpenRouter — model usage breakdown.</figcaption>
+                            </figure>
+                            <p>At the same time I study architectures, best practices, security and code so I am not just a copy-paste operator. I want to offer real awareness and knowledge to my clients. My day-to-day focus stays on spec-driven production and the analysis that follows from it.</p>
+                        </div>
+
+                        <!-- WHAT I HAVE BUILT -->
+                        <div class="tech-built">
+                            <h3>What I have worked on</h3>
                             <ul>
-                                <li>Claude Code / Github Copilot</li>
-                                <li>OpenRouter API</li>
-                                <li>MCP — Skills & Tooling</li>
-                                <li>Agentic Automations (n8n)</li>
-                                <li>Spec-Driven Coding</li>
+                                <li>E-commerce platforms with backend, payment systems, edge databases and S3-compatible media management</li>
+                                <li>VPS Linux server provisioning and management on Hetzner, Oracle and Alibaba using Ansible IaC, with monitoring, alerting and maintenance pipelines</li>
+                                <li>Several types of management dashboards for different operational contexts</li>
+                                <li>Self-hosting of inference models for images, video and text, including tool calling setups</li>
+                                <li>Hosting and provisioning of OpenClaw and similar systems</li>
+                                <li>Operational and experimental Discord and Telegram bots</li>
+                                <li>Domain management, DNS, deployments and CI/CD via Cloudflare Workers</li>
                             </ul>
                         </div>
-                        <div class="pillar">
-                            <h3>Core Stack</h3>
+
+                        <!-- CURRENTLY STUDYING -->
+                        <div class="tech-built">
+                            <h3>Currently studying</h3>
+                            <p>Not yet applied to my products, but studying them to build real understanding rather than surface familiarity.</p>
                             <ul>
-                                <li>TypeScript / AI-Driven</li>
-                                <li>Astro / 11ty</li>
-                                <li>Cloudflare Workers & Pages</li>
-                                <li>Turso — SQLite Edge</li>
-                                <li>Bash</li>
-                            </ul>
-                        </div>
-                        <div class="pillar">
-                            <h3>Infrastructure</h3>
-                            <ul>
-                                <li>Hetzner VPS / Ubuntu Server</li>
-                                <li>Proxmox</li>
-                                <li>Docker / GitHub Actions CI/CD</li>
-                                <li>Cloudflare R2 / S3 Storage</li>
-                                <li>DNS, TLS & Global Edge Layer</li>
-                            </ul>
-                        </div>
-                        <div class="pillar">
-                            <h3>Integrations</h3>
-                            <ul>
-                                <li>Stripe API / Webhooks</li>
-                                <li>Email Transactional (Postmark)</li>
-                                <li>Sentry / Monitoring</li>
-                                <li>Python / Data Scripts</li>
+                                <li>Rust</li>
+                                <li>AI citation optimization — AEO (Answer Engine Optimization), structuring content so AI systems can extract and cite concise answers. AIO (AI Optimization), using AI operationally across the full content lifecycle. AAO (Assistive Agent Optimization) is also emerging in the conversation.</li>
+                                <li>Inference optimization and hallucination reduction, specifically entropy reduction on large or complex codebases</li>
+                                <li>Active participation in niche communities, not just to stay current but to distinguish genuine signal from FOMO. A very high percentage of products and services in the AI space are wrappers, scams or solutions to invented problems. Knowing which is which takes time and attention.</li>
                             </ul>
                         </div>
                     </div>
@@ -64,7 +108,7 @@ permalink: /pages/tech.html
                             <a href="https://github.com/girste/CHIHUAUDIT" target="_blank" rel="noopener">
                                 <img src="/chihu-img.png" alt="CHIHUAUDIT" style="width:100%;display:block;margin-bottom:1.5rem;">
                             </a>
-                            <p style="font-size:0.85rem;color:var(--accent);line-height:1.5;">Hardening, security & best practice analysis tool for Linux servers. Also available as an AI skill — same audit, zero installation.</p>
+                            <p style="font-size:0.85rem;color:var(--accent);line-height:1.5;">Hardening, security and best practice analysis tool for Linux servers. Also available as an AI skill — same audit, zero installation.</p>
                         </div>
 
                         <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
