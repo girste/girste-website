@@ -6,6 +6,7 @@ description: "Stefano Girard — Digital Product Builder. Designing and building
         <div class="container">
             <section class="hero">
                 <h1>Digital Product<br>Builder.</h1>
+                <button id="theme-pill">press me</button>
                 <p class="subhead">
                     I bridge the gap between high-end Art Direction and modern development. I design and build end-to-end digital experiences using AI as a primary lever for speed and precision.
                 </p>
@@ -39,3 +40,68 @@ description: "Stefano Girard — Digital Product Builder. Designing and building
                 </div>
             </section>
         </div>
+<script>
+(function(){
+    var themes=['','theme-1','theme-2','theme-3','theme-4','theme-5','theme-6'];
+    var labels=['press me','once more?','sure?','really?','...','ok.','HELP'];
+    var FONTS='https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Space+Mono:wght@400;700&family=Comfortaa:wght@700&family=Bebas+Neue&family=Comic+Neue:wght@700&family=Orbitron:wght@400;700&display=swap';
+    var fontsLoaded=false;
+    function loadFonts(){if(fontsLoaded)return;var l=document.createElement('link');l.rel='stylesheet';l.href=FONTS;document.head.appendChild(l);fontsLoaded=true;}
+
+    var WA_COLORS=['#FF0000','#FF6600','#FF9900','#FFCC00','#CCDD00','#33AA00','#00AA88','#0088CC','#0044FF','#6600CC','#AA00BB','#DD0077','#FF0044','#FF3300','#FF7700'];
+    function applyWordArt(){
+        var h1=document.querySelector('h1');
+        if(!h1||h1.dataset.waOrig)return;
+        h1.dataset.waOrig=h1.innerHTML;
+        var html=h1.innerHTML,result='',ci=0;
+        for(var i=0;i<html.length;i++){
+            if(html[i]==='<'){var e=html.indexOf('>',i);result+=html.slice(i,e+1);i=e;}
+            else if(html[i]===' '||html[i]==='\n'){result+=html[i];}
+            else{result+='<span class="wl" style="color:'+WA_COLORS[ci%WA_COLORS.length]+'">'+html[i]+'</span>';ci++;}
+        }
+        h1.innerHTML=result;
+    }
+    function removeWordArt(){
+        var h1=document.querySelector('h1');
+        if(h1&&h1.dataset.waOrig){h1.innerHTML=h1.dataset.waOrig;delete h1.dataset.waOrig;}
+    }
+
+    function applyMiniScreen(){
+        if(document.getElementById('mini-screen'))return;
+        var shell=document.createElement('div');
+        shell.id='mini-screen';
+        shell.style.cssText='position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(0.32);width:100vw;height:100vh;transform-origin:center center;background:#fff;overflow:hidden;';
+        var hdr=document.querySelector('header.site-header');
+        var mn=document.querySelector('main');
+        hdr.style.position='absolute';
+        shell.appendChild(hdr);
+        shell.appendChild(mn);
+        document.body.appendChild(shell);
+    }
+    function removeMiniScreen(){
+        var shell=document.getElementById('mini-screen');
+        if(!shell)return;
+        var hdr=shell.querySelector('header.site-header');
+        var mn=shell.querySelector('main');
+        if(hdr){hdr.style.position='';document.body.insertBefore(hdr,document.body.firstChild);}
+        if(mn){document.body.insertBefore(mn,shell);}
+        shell.remove();
+    }
+
+    var pill=document.getElementById('theme-pill');
+    pill.dataset.themeIndex='0';
+    pill.addEventListener('click',function(){
+        loadFonts();
+        var idx=parseInt(this.dataset.themeIndex||'0');
+        if(idx===4)removeWordArt();
+        if(idx===5)removeMiniScreen();
+        if(idx>0)document.body.classList.remove(themes[idx]);
+        idx=(idx+1)%themes.length;
+        this.dataset.themeIndex=String(idx);
+        if(idx>0)document.body.classList.add(themes[idx]);
+        if(idx===4)applyWordArt();
+        if(idx===5)applyMiniScreen();
+        this.textContent=labels[idx];
+    });
+})();
+</script>

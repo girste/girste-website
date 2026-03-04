@@ -28,5 +28,19 @@
     <main>
         {{ content | safe }}
     </main>
+    <script>
+    document.querySelector('.nav-brand').addEventListener('click',function(e){
+        var pill=document.getElementById('theme-pill');
+        if(pill){
+            var idx=parseInt(pill.dataset.themeIndex||'0');
+            if(idx===4){var h1=document.querySelector('h1');if(h1&&h1.dataset.waOrig){h1.innerHTML=h1.dataset.waOrig;delete h1.dataset.waOrig;}}
+            if(idx===5){var shell=document.getElementById('mini-screen');if(shell){var hdr=shell.querySelector('header.site-header');var mn=shell.querySelector('main');if(hdr){hdr.style.position='';document.body.insertBefore(hdr,document.body.firstChild);}if(mn){document.body.insertBefore(mn,shell);}shell.remove();}}
+            if(idx>0)document.body.classList.remove('theme-'+idx);
+            pill.dataset.themeIndex='0';
+            pill.textContent='press me';
+        }
+        if(window.location.pathname==='/'||window.location.pathname==='/index.html'){e.preventDefault();}
+    });
+    </script>
 </body>
 </html>

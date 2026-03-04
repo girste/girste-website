@@ -173,3 +173,69 @@ details.timeline-toggle[open] summary::after { content: '−'; }
     .nav-links { gap: 1rem; flex-wrap: wrap; }
     .nav-links a { font-size: 0.7rem; }
 }
+
+/* ===== THEME PILL ===== */
+#theme-pill {
+    display: block;
+    width: fit-content;
+    padding: 0.22rem 0.7rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    background: transparent;
+    color: var(--accent);
+    font-family: var(--font-main);
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+    transition: var(--transition);
+}
+#theme-pill:hover { background: var(--accent); color: var(--bg); }
+
+/* ===== T1: BANANA + FERRARI + FRAKTUR + SPACE MONO ===== */
+body.theme-1 { --bg:#FFE01B; --fg:#1a0000; --accent:#FF2800; --border:rgba(255,40,0,0.25); --font-main:'Space Mono',monospace; }
+body.theme-1 h1 { font-family:'UnifrakturMaguntia',cursive; }
+body.theme-1 header.site-header { background:rgba(255,224,27,0.93); }
+
+/* ===== T2: SPECCHIATO + BIANCO + FERRARI ===== */
+body.theme-2 { --bg:#FFFFFF; --fg:#111111; --accent:#FF2800; --border:rgba(255,40,0,0.2); transform:scaleX(-1); }
+body.theme-2 #theme-pill { transform:scaleX(-1); }
+
+/* ===== T3: VIOLA SCURO + ROSA MAIALINO + COMFORTAA ===== */
+body.theme-3 { --bg:#0D0020; --fg:#FF69B4; --accent:#FF1493; --border:rgba(255,105,180,0.25); --font-main:'Comfortaa',sans-serif; }
+body.theme-3 h1 { font-family:'Comfortaa',sans-serif; font-weight:700; color:#FF69B4; }
+body.theme-3 header.site-header { background:rgba(13,0,32,0.97); }
+body.theme-3 .project-card { border:2px solid rgba(255,20,147,0.35); border-radius:1rem; overflow:hidden; }
+body.theme-3 a { color:#FF69B4; }
+body.theme-3 .subhead { color:#FF69B4; opacity:0.85; }
+
+/* ===== T4: WORDART — PER-LETTER COLORS ===== */
+body.theme-4 { --bg:#EEF6FF; --fg:#1a1a1a; --accent:#FF4400; --border:rgba(255,68,0,0.2); }
+body.theme-4 h1 { font-family:'Impact','Arial Black',sans-serif; letter-spacing:0.01em; }
+body.theme-4 h1 .wl { -webkit-text-stroke:1.5px rgba(0,0,0,0.45); text-shadow:3px 3px 0 rgba(0,0,0,0.18), 5px 5px 12px rgba(0,0,0,0.08); display:inline-block; }
+body.theme-4 header.site-header { background:rgba(238,246,255,0.95); }
+
+/* ===== T5: DESKTOP MINIATURIZZATO ===== */
+body.theme-5 { background:#6E7E8F; overflow:hidden; height:100vh; }
+#mini-screen { border-radius:6px; box-shadow:0 40px 100px rgba(0,0,0,0.7); }
+
+/* ===== T6: CHAOS ===== */
+@keyframes chaos-rock { 0%,100%{transform:rotate(-3deg) skewX(-2deg) scaleX(1.04);} 50%{transform:rotate(3deg) skewX(2deg) scaleX(0.96);} }
+@keyframes chaos-colors { 0%,100%{color:#FF0000;} 25%{color:#0000FF;} 50%{color:#00CC00;} 75%{color:#FF00FF;} }
+@keyframes chaos-bg { 0%{background-color:#fff;} 20%{background-color:#fff8e1;} 40%{background-color:#e8f5e9;} 60%{background-color:#fce4ec;} 80%{background-color:#e8eaf6;} 100%{background-color:#fff;} }
+@keyframes chaos-size { 0%,100%{font-size:clamp(3rem,11vw,7.5rem); letter-spacing:0.3em;} 50%{font-size:clamp(2rem,7vw,5rem); letter-spacing:-0.05em;} }
+@keyframes chaos-skew { 0%,100%{transform:skewY(-4deg);} 50%{transform:skewY(4deg);} }
+@keyframes chaos-nav-sz { 0%,100%{font-size:1.8rem; letter-spacing:0.3em;} 50%{font-size:0.5rem; letter-spacing:0.05em;} }
+body.theme-6 { animation:chaos-bg 1.2s infinite; }
+body.theme-6 h1 { font-family:'Orbitron','Impact',sans-serif; animation:chaos-rock 0.35s ease-in-out infinite, chaos-colors 0.55s infinite, chaos-size 1s infinite; }
+body.theme-6 .subhead { font-family:'Comic Neue',cursive; font-size:1.6rem !important; color:#FF0066; animation:chaos-rock 0.3s ease-in-out infinite reverse; animation-delay:0.08s; }
+body.theme-6 .nav-brand { animation:chaos-colors 0.45s infinite; font-size:2.5rem; }
+body.theme-6 .nav-links { animation:chaos-skew 0.7s infinite; }
+body.theme-6 .nav-links a { animation:chaos-nav-sz 0.8s infinite alternate; }
+body.theme-6 .simple-split { animation:chaos-skew 0.9s infinite reverse; }
+body.theme-6 .split-opt:first-child { animation:chaos-rock 0.45s infinite; }
+body.theme-6 .split-opt:last-child { animation:chaos-rock 0.45s infinite reverse; transform-origin:right center; }
+body.theme-6 header.site-header { animation:chaos-bg 0.9s infinite reverse; }
+body.theme-6 #theme-pill { animation:chaos-colors 0.3s infinite; border-color:currentColor; font-size:1.4rem; padding:0.4rem 1.5rem; }
