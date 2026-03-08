@@ -3,7 +3,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/favicon.ico");
     eleventyConfig.addPassthroughCopy("src/ogimg.png");
     eleventyConfig.addPassthroughCopy("src/CNAME");
-    eleventyConfig.addPassthroughCopy("src/enth-spec.png");
+    eleventyConfig.addPassthroughCopy("src/speq-img.png");
     eleventyConfig.addPassthroughCopy("src/chihu-img.png");
 
     eleventyConfig.addFilter("sortByYear", (arr) =>
