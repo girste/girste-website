@@ -3,10 +3,10 @@
     "slug": "marlus",
     "name": "Amaro Màrlus",
     "year": 2023,
-    "card_tag": "Branding / E-commerce",
+    "card_tag": "Creative Direction",
     "specs": {
       "role": "Creative Direction",
-      "category": "Branding / E-commerce",
+      "category": "Creative Direction",
       "live_url": "https://marlus.it",
       "live_text": "marlus.it"
     },
@@ -18,10 +18,10 @@
     "slug": "hiki3d",
     "name": "Hiki3D",
     "year": 2025,
-    "card_tag": "Website / 3D",
+    "card_tag": "Branding / Website",
     "specs": {
       "role": "Creative Direction",
-      "category": "Website / 3D",
+      "category": "Branding / Website",
       "live_url": "https://hiki3d.com",
       "live_text": "hiki3d.com"
     },
@@ -32,10 +32,10 @@
     "slug": "krrrd",
     "name": "KRRRD",
     "year": 2025,
-    "card_tag": "AI First Project",
+    "card_tag": "Full Stack / Personal",
     "specs": {
       "role": "Founder",
-      "category": "AI First Project",
+      "category": "Full Stack / Personal",
       "live_plain": "Archived"
     },
     "cover_image": "https://media.girste.com/girste/krrrd/cope.png",
@@ -45,10 +45,10 @@
     "slug": "violet",
     "name": "Violet & Crystal",
     "year": 2025,
-    "card_tag": "E-commerce / Shop",
+    "card_tag": "Branding / Website",
     "specs": {
       "role": "Branding & Web",
-      "category": "E-commerce / Shop",
+      "category": "Branding / Website",
       "live_url": "https://violetandcrystal.com",
       "live_text": "violetandcrystal.com"
     },
@@ -58,10 +58,10 @@
     "slug": "pandaroni",
     "name": "Pandaroni",
     "year": 2025,
-    "card_tag": "Branding / Shop",
+    "card_tag": "Branding / Web / Shop",
     "specs": {
       "role": "Creative Direction",
-      "category": "Branding / Shop",
+      "category": "Branding / Web / Shop",
       "live_plain": "Piazza Verdi 40, La Spezia"
     },
     "cover_image": "https://media.girste.com/girste/pandaroni/cope.png"
@@ -97,10 +97,10 @@
     "slug": "vulcanus",
     "name": "Vulcanus",
     "year": 2025,
-    "card_tag": "B2B Platform",
+    "card_tag": "Digital Rebranding",
     "specs": {
       "role": "Digital Products",
-      "category": "B2B Platform",
+      "category": "Digital Rebranding",
       "live_url": "https://www.vulcanusgrill.it/",
       "live_text": "vulcanusgrill.it",
       "live_note": "Deprecated"
@@ -111,10 +111,10 @@
     "slug": "banality",
     "name": "Banality",
     "year": 2018,
-    "card_tag": "Clothing Project",
+    "card_tag": "Creative Direction / Personal",
     "specs": {
       "role": "Founder",
-      "category": "Clothing Project",
+      "category": "Creative Direction / Personal",
       "live_url": "https://www.instagram.com/banality.wear/",
       "live_text": "@banality.wear"
     },
@@ -141,10 +141,10 @@
     "slug": "legami",
     "name": "Legami",
     "year": 2024,
-    "card_tag": "Copywriting",
+    "card_tag": "Graphic Design / Copywriting",
     "specs": {
       "role": "Graphic Design",
-      "category": "Copywriting",
+      "category": "Graphic Design / Copywriting",
       "type_label": "Type",
       "type_value": "Agency Work",
       "live_plain": "—"
@@ -156,10 +156,10 @@
     "slug": "abb",
     "name": "ABB Hospitality",
     "year": 2024,
-    "card_tag": "Agency Work",
+    "card_tag": "Newsletter / Copy / Graphic Design",
     "specs": {
       "role": "Newsletter / Design",
-      "category": "Graphic Design / B2B",
+      "category": "Newsletter / Copy / Graphic Design",
       "type_label": "Type",
       "type_value": "Agency Work",
       "live_plain": "—"
@@ -185,10 +185,10 @@
     "slug": "itas",
     "name": "ITAS",
     "year": 2024,
-    "card_tag": "Agency Work",
+    "card_tag": "Presentation / Copy",
     "specs": {
       "role": "Presentation",
-      "category": "Agency Work",
+      "category": "Presentation / Copy",
       "live_plain": "—"
     },
     "cover_image": "https://media.girste.com/girste/itas/cope.png"
@@ -197,10 +197,10 @@
     "slug": "stellantis",
     "name": "Stellantis",
     "year": 2024,
-    "card_tag": "Icon Design",
+    "card_tag": "Graphic Design",
     "specs": {
       "role": "UX/UI",
-      "category": "Icon Design",
+      "category": "Graphic Design",
       "type_label": "Type",
       "type_value": "Agency",
       "live_plain": "—"
@@ -211,10 +211,10 @@
     "slug": "ferrero",
     "name": "Ferrero",
     "year": 2022,
-    "card_tag": "Web Design",
+    "card_tag": "Website",
     "specs": {
       "role": "Newsletter",
-      "category": "Web Design",
+      "category": "Website",
       "type_label": "Type",
       "type_value": "Agency",
       "live_plain": "—"
@@ -225,10 +225,10 @@
     "slug": "hashy",
     "name": "Hashy",
     "year": 2025,
-    "card_tag": "B2B E-commerce",
+    "card_tag": "Digital Rebranding",
     "specs": {
       "role": "Web Design",
-      "category": "B2B E-commerce",
+      "category": "Digital Rebranding",
       "live_url": "https://www.hashyallinone.com/",
       "live_text": "hashyallinone.com"
     },
@@ -238,10 +238,10 @@
     "slug": "micam",
     "name": "MICAM",
     "year": 2023,
-    "card_tag": "Blog / Digital Branding",
+    "card_tag": "Website / Newsletter",
     "specs": {
       "role": "Newsletter",
-      "category": "Blog / Digital Branding",
+      "category": "Website / Newsletter",
       "type_label": "Type",
       "type_value": "Agency Work",
       "live_url": "https://micam.it/",
@@ -253,10 +253,10 @@
     "slug": "nestle",
     "name": "Nestlé",
     "year": 2021,
-    "card_tag": "Agency Work",
+    "card_tag": "Newsletter / Copy",
     "specs": {
       "role": "Newsletter",
-      "category": "Agency Work",
+      "category": "Newsletter / Copy",
       "live_plain": "—"
     },
     "cover_image": "https://media.girste.com/girste/nestle/cope.png"
@@ -280,10 +280,10 @@
     "slug": "locman",
     "name": "Locman",
     "year": 2021,
-    "card_tag": "Web Design",
+    "card_tag": "Digital Adv",
     "specs": {
       "role": "Art Direction",
-      "category": "Web Design",
+      "category": "Digital Adv",
       "type_label": "Type",
       "type_value": "Agency",
       "live_plain": "Archived"
@@ -294,10 +294,10 @@
     "slug": "sidewalk",
     "name": "Sidewalk Art Gallery",
     "year": 2018,
-    "card_tag": "Creative Direction",
+    "card_tag": "Branding / Digital",
     "specs": {
       "role": "Brand Direction",
-      "category": "Creative Direction",
+      "category": "Branding / Digital",
       "type_label": "Type",
       "type_value": "Collab",
       "live_plain": "—"
